@@ -26,19 +26,10 @@ config = configparser.ConfigParser()
 config.read_file(open(curPath+'\config_hal.ini'))
 bot = telebot.TeleBot(token=config['DEFAULT']['token'])
 
-
-
-    
-
 #uriEncoder
 def uriEncode(t):
     from urllib.parse import quote
     return quote(t)
-
-#getJSON
-def getJSON(req):
-    with urllib.request.urlopen(req) as url:
-        return json.loads(url.read().decode())
 
 def castHeaderCorrection(s):
     s = re.sub(r'[\ \n]{2,}', '',s).replace('\n','')
