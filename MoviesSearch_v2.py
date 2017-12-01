@@ -23,7 +23,7 @@ config = configparser.ConfigParser()
 #token=<token>
 #support_chat_id=<bot id> 
 
-config.read_file(open(curPath+'\config_hal.ini'))
+config.read_file(open(curPath+'\config.ini'))
 bot = telebot.TeleBot(token=config['DEFAULT']['token'])
 
 #uriEncoder
