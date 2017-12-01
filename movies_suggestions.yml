@@ -1,0 +1,51 @@
+categories:
+- movies_suggestion
+conversations:
+- - search this movie for me
+  - "to search a movie just type my bot user name followed by the movie title ex: '@MovieSearch_bot 2001: a space odissey'"
+- - i want a movie suggestion
+  - i can do this, do you want something specific like genre, director, cast, rating?
+- - i want a movie suggestion  
+  - something specific, genre, director, cast, rating?
+- - i want a movie suggestion  
+  - any movie?
+- - can you suggest me a movie?
+  - yes, i can do this, do you want something specific like genre, director, cast, rating?
+- - can you suggest me a movie?  
+  - yes, i can. something specific, genre, director, cast, rating?
+- - can you suggest me a movie?  
+  - yes, any movie?
+- - no
+  - "all right, type or tap this command to do so: /suggestAnything"
+- - suggest me a movie
+  - "i can do this, here, tap on this command: /suggestAnything"
+- - suggest me a movie  
+  - "fine, here, tap on this command: /suggestAnything"
+- - suggest me a movie  
+  - "yep, here, tap on this command: /suggestAnything"
+- - tell me a great movie
+  - "well...if it will be a GREAT movie, i don't know, but i'll do my best... tap here on this command: /suggestAnything"
+- - by genre
+  - ok, type /suggestByGenre to see a list of available movies genre
+- - by director
+  - "ok, type /sbd followed by the director's name, ex: /sbd coppola to see a suggestion based on this director"
+- - by cast
+  - "ok, type /sbc followed by the cast member name, ex: /sbc marlon brando to see a suggestion based on this actor or actess"
+- - by rating
+  - fine, type /sbr followed by the minimum rating to see a movie rated above the given note or type /suggestByRating to see a list with pre determinated minimum notes
+- - no, by genre
+  - ok, type /suggestByGenre to see a list of available movies genre
+- - no, by director
+  - "ok, type /sbd followed by the director's name, ex: /sbd coppola to see a suggestion based on this director"
+- - no, by cast
+  - "ok, type /sbc followed by the cast member name, ex: /sbc marlon brando to see a suggestion based on this actor/actess"
+- - no, by rating
+  - fine, type /sbr followed by the minimum rating to see a movie rated above the given note or type /suggestByRating to see a list with pre determinated minimum notes
+- - any movie
+  - "fine, just tap this on this command: /suggestAnything"
+- - any movie  
+  - "Ok, here it goes... just tap this on this command: /suggestAnything"
+- - how can i search for a movie here?
+  - "just type my bot user name followed by the movie title ex: '@MovieSearch_bot 2001: a space odissey'"
+- - show me the commands list
+  - ok, type /start to see all commands available
